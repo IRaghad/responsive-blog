@@ -86,7 +86,48 @@ nav  {
 	grid-area: nav; 
 }
 
-@media (min-width: 600px) {
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 500px) {
+	.container {
+		display: grid;
+		grid-template-columns: 280px;
+		grid-template-rows: 150px 100px 390px 1fr 80px;
+		grid-template-areas: "hd" "nav" "sd " "main" "ft";
+	}
+	header {
+		grid-area: hd;
+		display: block;
+		font-family: "Sofia";
+		font-size: 15px;
+		background: url(../img/headr.png) no-repeat !important;
+	}
+	h1#header-title {
+		float: right;
+	}
+}
+
+@media only screen and (min-width: 400px) {
+	.container {
+		display: grid;
+		grid-template-columns: 390px;
+		grid-template-rows: 150px 100px 390px 1fr 80px;
+		grid-template-areas: "hd" "nav " "sd " "main" "ft";
+	}
+	header {
+		grid-area: hd;
+		display: block;
+		font-family: "Sofia";
+		font-size: 15px;
+		background: url(../img/headr.png) no-repeat !important;
+	}
+	h1#header-title {
+		float: right;
+	}
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
 	.container {
 		display: grid;  
 		grid-template-columns: 230px;
@@ -95,7 +136,8 @@ nav  {
 	}
 }
 
-@media (min-width: 900px) {
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
 	.container {
 		display: grid;
 		grid-template-columns: 160px 200px;
