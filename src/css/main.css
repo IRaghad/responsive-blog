@@ -1,3 +1,8 @@
+
+@import 'home.css';
+@import 'post.css';
+@import 'author.css';
+
 body {
 	background-color: #FFF;
 	color: #000;

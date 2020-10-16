@@ -1,4 +1,3 @@
-
 .post {
 	border: 3px solid seashell;
 	border-radius: 8px;
@@ -14,27 +13,3 @@ figcaption {
     font-style: italic;
 	color: #a9a;
 }
-
-.author{
-	margin-left: 20px;
-}
-
-h3.author-name {
-	text-decoration: underline;
-}
-.author 
-.author-info {
-	font-size: 12px;
-	font-style: italic;
-	padding: 0 5px 12px;
-}
-
-.author-avatar img {
-	width: 130px; 
-}
-
-.author-bio {
-	color: #200d31;
-	font-size: 14px
-}
-

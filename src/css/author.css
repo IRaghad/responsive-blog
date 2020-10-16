@@ -1,0 +1,23 @@
+.author{
+	margin-left: 20px;
+}
+
+h3.author-name {
+	text-decoration: underline;
+}
+.author 
+.author-info {
+	font-size: 12px;
+	font-style: italic;
+	padding: 0 5px 12px;
+}
+
+.author-avatar img {
+	width: 130px; 
+}
+
+.author-bio {
+	color: #200d31;
+	font-size: 14px
+}
+
