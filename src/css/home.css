@@ -1,0 +1,63 @@
+aside form {
+	padding: 30px
+}
+
+aside form text {
+	color: #667;
+	font-size: 1em;
+	height: 38px;
+	margin: 5px 0 0;
+	padding-left: 30px;
+}
+
+aside form input {
+	background: transparent;
+	border: 0;
+	box-sizing: border-box;
+	font-size: 20px;
+	height: 40px;
+	margin-top: 20px;
+	outline: none !important;
+	position: relative;
+	width: 300px;
+}
+
+button[type=submit] {
+	background-color: #000;
+	font-family: 'Times New Roman', Times, serif;
+	width: 90px;
+	height: 30px;
+	color: #f7cbcb;
+	border: none;
+	margin-top: 3px;
+	border-radius: 12px;
+}
+
+.posts {
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.post {
+	flex-direction: column;
+	border: 3px solid seashell;
+	border-radius: 8px;
+	display: flex;
+	padding: 80px;
+}
+
+.post-info {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding-top: 16px;
+	font-size: 13px;
+}
+
+.post-img {
+	padding: 70px;
+	background: url(../img/img-1.png) no-repeat center;
+	background-size: 100px;
+}
+
